@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&family=Roboto:wght@400;900&family=Tilt+Neon&display=swap");
+
+@font-face {
+  font-family: mainbold;
+  src: url(font/FONTSPRINGDEMO-CeraRoundProBold.woff);
+}
+@font-face {
+  font-family: mainmedium;
+  src: url(font/Fontspring-DEMO-ceraroundpro-medium.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100% !important;
+  height: 100%;
+}
+header {
+  background-image: url(assets/hero.png);
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  place-items: center;
+  padding: 12px 100px 12px;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+}
+.container ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.hero-container {
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin-top: 20vh;
+  margin-left: 10vh;
+}
+.hero-container h1 {
+  font-size: 70px;
+  font-family: "mainbold", sans-serif;
+}
+.hero-container p {
+  font-family: "mainmedium", sans-serif;
+  margin-right: 55%;
+}
+.primary-btn {
+  background-color: #f64b3c;
+  padding: 10px 50px 10px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+.chef-list {
+  background-color: #f6eedf;
+  height: 100vh;
+}
+.discription h1 {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 40px;
+  font-family: "mainbold", sans-serif;
+}
+.discription p {
+  margin-top: 25px;
+  display: flex;
+  text-align: center;
+  color: red;
+  font-family: "mainmedium", cursive;
+  padding: 5px 40vh 5px;
+}
+.chef-image {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 115px;
+}
+.chef-image img {
+  border-radius: 50%;
+  height: 30vh;
+  width: 30vh;
+}
+.chef-details {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20vh;
+  color: red;
+}
+.chef-position {
+  display: flex;
+  justify-content: center;
+  gap: 31vh;
+  color: red;
+}
+.best-burger {
+  background-color: #f64b3c;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  padding: 5px 15vh 5px;
+}
+.best-burger img {
+  border-radius: 50%;
+  width: 70vh;
+  height: 70vh;
+}
+.burger-content {
+  color: white;
+}
+.burger-content h1 {
+  font-size: 10vh;
+  font-family: "Roboto", sans-serif;
+}
+.burger-content p {
+  font-family: "Playpen Sans", cursive;
+  text-align: start !important;
+}
+.burger-content button {
+  background-color: white;
+  color: #f64b3c;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.big-burger {
+  background-color: #f6eedf;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  padding: 5px 15vh 5px;
+}
+.big-burger img {
+  border-radius: 50%;
+  height: 70vh;
+  width: 70vh;
+}
+.big-burger .burger-content {
+  color: #f64b3c;
+}
+.big-burger button {
+  background-color: #f64b3c;
+  color: white;
+}
+
+.statistics {
+  height: 100vh;
+  background-color: #f64b3c;
+}
+.statistics-content {
+  padding: 15vh 40px 15px;
+  text-align: center;
+  color: white;
+}
+.statistics-content h1 {
+  font-size: 8vh;
+  font-family: "Roboto", sans-serif;
+}
+.statistics-content p {
+  font-family: "Playpen Sans", cursive;
+  margin: 10px 45vh 5px;
+  padding-top: 20px;
+}
+.statistics-design {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 55px;
+}
+.circle {
+  width: 200px; /* Set the width and height to create a circle */
+  height: 200px;
+  border: 5px solid #fff; /* Border color and thickness */
+  border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #fff; /* Text color */
+}
+.circle h1 {
+  font-size: 9vh;
+}
+.circle span {
+  font-size: 4vh;
+  text-transform: uppercase;
+}
+
+.popular {
+  height: 100vh;
+  width: 100%;
+  background-color: #f6eedf;
+}
+.popular h1 {
+  text-align: center;
+  font-size: 10vh;
+  color: #f64b3c;
+}
+.pupular-container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin: 13vh 50px 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 25%;
+  max-height: 100%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.05);
+  color: #f64b3c;
+}
+.card h2 {
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-family: "Playpen Sans", sans-serif;
+  font-size: 5vh;
+}
+.card img {
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+}
+.card span {
+  margin-top: 15px;
+  font-family: "Playpen Sans", cursive;
+}
+.card p {
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Playpen Sans", cursive;
+  padding: 0px 25px 0px;
+}
+.card button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.quote {
+  height: 100vh;
+  background-image: url(assets/bottom-bg.png);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.quote-container {
+  background-color: #f64b3c;
+  opacity: 82%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.quote-container p {
+  margin: 5px 45vh 5px;
+  font-size: 4vh;
+  color: #f6eedf;
+}
+.quote-container h4 {
+  margin-top: 20px;
+  font-size: 8vh;
+  color: #f6eedf;
+}
+
+.newslater {
+  background-image: url(assets/element1.png);
+  height: 100vh;
+  color: #f64b3c;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newslater h1 {
+  font-size: 8vh;
+  font-family: "Roboto", sans-serif;
+}
+.newslater p {
+  font-size: 3vh;
+  font-family: "Playpen Sans", cursive;
+  margin: 10px 40vh 5px;
+}
+.subscribe {
+  margin-top: 15px;
+}
+.subscribe button {
+  border-radius: 0px 20px 20px 0px;
+  width: 150px;
+}
+input {
+  padding: 7px;
+  border: 1px solid #f6eedf;
+  border-radius: 20px 0px 0px 20px;
+  outline: none;
+  width: 250px;
+  background-color: white;
+  color: black;
+  font-family: "Playpen Sans", cursive;
+}
+
+footer {
+  background-color: #212121;
+  color: #f6eedf;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh 5vw; /* Adjust padding for top and sides */
+  gap: 20vh;
+}
+
+.footer-section {
+  flex: 1; /* Distribute the sections evenly */
+  margin-right: 2vw; /* Add some space between sections */
+  max-width: 20vw; /* Limit the maximum width of each section */
+}
+
+footer h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+}
+
+footer p {
+  font-size: 0.8rem; /* Adjust the font size as needed */
+  font-family: "Playpen Sans", cursive;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+footer li {
+  margin-bottom: 0.9rem;
+  font-size: 0.8rem;
+  font-family: "Playpen Sans", cursive;
+}
+footer i {
+  background-color: #f6eedf;
+  color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  gap: 80px;
+  text-align: center;
+}
+.footer-section .fa {
+  line-height: 30px;
+}
